@@ -1,0 +1,8 @@
+name = "mail"
+main = "mail-worker/src/index.js"      # ← 指向后端入口
+compatibility_date = "2026-07-10"
+compatibility_flags = ["nodejs_compat"]
+
+# 前端静态资源目录
+[assets]
+directory = "mail-vue"
